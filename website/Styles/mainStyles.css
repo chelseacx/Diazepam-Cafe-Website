@@ -13,8 +13,20 @@ body {
 a {
 
 	text-decoration: none;
+	color: #0CF;
 	
+}
+
+a:hover {
+
+	color: #09C;
 	
+}
+
+a:active {
+
+	color: #069;
+
 }
 
 #container {
