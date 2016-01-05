@@ -1,0 +1,3 @@
+
+hoverIntent by Brian Cherne
+http://cherne.net/brian/resources/jquery.hoverIntent.html
