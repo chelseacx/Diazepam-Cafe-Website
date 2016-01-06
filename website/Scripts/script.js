@@ -27,3 +27,16 @@ $(document).ready(
 	}
 	
 );
+
+
+
+//The following validates the question form's input fields before the user can submit it
+
+$(document).ready(
+
+	$('#question_form').validate()
+
+);
+
+
+

@@ -1,3 +1,6 @@
 
 hoverIntent by Brian Cherne
 http://cherne.net/brian/resources/jquery.hoverIntent.html
+
+jQuery Validation Plugin 
+http://jqueryvalidation.org/

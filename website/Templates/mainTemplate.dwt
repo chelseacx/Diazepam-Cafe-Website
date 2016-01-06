@@ -14,12 +14,13 @@
 <meta name="description" content="Diazepam Cafe provides the finest and best dairy ice-cream with wholesome natural ingredients." />
 <meta name="keywords" content="diazepam cafe, diazepam, ice-cream, ice cream, cafe, dessert, dessert cafe, desserts cafe, sweets, sweet cafe, diazepam ice-cream, diazepam ice cream, best ice-cream, best ice cream, natural ice cream, wholesome ice cream, natural ingredients, quality ice-cream, ice-cream events, ice-cream services, ice-cream competition" />
 
+<!-- TemplateBeginEditable name="External Links" -->
 <link href="../Styles/mainStyles.css" rel="stylesheet" type="text/css" />
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="../Scripts/jquery.hoverIntent.minified.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 <script type="text/javascript" src="../Scripts/script.js"></script>
-
+<!-- TemplateEndEditable -->
 </head>
 
 
