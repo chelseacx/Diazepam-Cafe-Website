@@ -132,18 +132,6 @@ a:active {
 		
 }
 
-/*#product_images {
-
-	text-align: center;
-	
-}
-
-#product_images p {
-
-	display: inline-block;
-	
-}
-*/
 
 #flavours_table {
 
@@ -193,7 +181,7 @@ a:active {
 #question_form fieldset{
 
 	border-radius: 10px;
-	width: 400px;
+	width: 350px;
 	margin: 0 auto;
 	
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
@@ -202,13 +190,11 @@ a:active {
 
 }
 
-#question_form legend{
+#question_form h2 {
 
-
-	font-size: 18px;
-
+	text-align: center;
+	
 }
-
 
 #question_form label{
 
@@ -218,9 +204,24 @@ a:active {
 
 #question_form input{
 
-	margin-left: 40px;
-	width: 250px;
+	width: 280px;
+	margin-left: 20px;
 
+}
+
+#question_form textarea {
+
+	width: 280px;
+	margin-left: 20px;
+	resize: none;
+	
+}
+
+#question_form input[type=submit] {
+
+	width: 150px;
+	margin-left: 100px;
+	
 }
 
 #question_form div{
