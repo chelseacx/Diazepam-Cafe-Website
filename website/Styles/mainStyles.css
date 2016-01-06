@@ -226,12 +226,6 @@ a:active {
 #question_form {
 }
 
-.center_image {
-	
-	display: block;
-	margin: 0 auto;
-	
-}
 
 #footer {
 	
@@ -251,5 +245,12 @@ a:active {
 .centered_text {
 
 	text-align: center;
+	
+}
+
+.center_image {
+	
+	display: block;
+	margin: 0 auto;
 	
 }
