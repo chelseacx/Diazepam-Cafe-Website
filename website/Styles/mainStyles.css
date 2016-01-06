@@ -132,6 +132,18 @@ a:active {
 		
 }
 
+#product_images {
+
+	margin: 0 auto;
+	
+}
+
+#product_images img {
+
+	display: inline-block;
+	margin: 0 auto;
+	
+}
 
 #events_table td {
 	
