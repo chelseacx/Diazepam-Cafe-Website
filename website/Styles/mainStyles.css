@@ -132,11 +132,58 @@ a:active {
 		
 }
 
+
 #events_table td {
 	
-	padding: 5px 40px;
+	padding: 10px 15px;
 	
 }
+
+#events_table td:first-child {
+
+	padding-left: 15px;
+	text-align: right;
+	font-style: italic;
+	
+}
+
+#contact_us_table td {
+	
+	padding: 5px 0;
+
+}
+
+#contact_us_table td:first-child {
+	
+	padding-right: 15px;
+	text-align: right;
+	font-weight: bold;
+		
+}
+
+#faq_table th {
+
+	padding-top: 25px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	text-align: left;
+	
+}
+
+
+#faq_table .question {
+
+	font-weight: bold;
+	
+}
+
+#faq_table td {
+	
+	padding: 10px;	
+	
+}
+
+
 
 
 #footer {
