@@ -134,14 +134,13 @@ a:active {
 
 #product_images {
 
-	margin: 0 auto;
+	text-align: center;
 	
 }
 
 #product_images img {
 
 	display: inline-block;
-	margin: 0 auto;
 	
 }
 
