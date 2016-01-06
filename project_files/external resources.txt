@@ -4,3 +4,7 @@ http://cherne.net/brian/resources/jquery.hoverIntent.html
 
 jQuery Validation Plugin 
 http://jqueryvalidation.org/
+
+Baskin Robbins Ice-cream pics
+https://www.baskinrobbins.com/content/baskinrobbins/en/products/icecream/flavors.html
+
