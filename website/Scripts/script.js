@@ -39,4 +39,22 @@ $(document).ready(
 );
 
 
+//The following is for the slideshow on the index page
+
+
+$(document).ready(
+
+	function(){	
+	$('.cycle-slideshow').cycle({
+		fx: 'fade',
+		speed: '8000',
+		timeout: '2500',
+		easing: 'linear'
+		
+	});
+	}
+
+);
+
+
 

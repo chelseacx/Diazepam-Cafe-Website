@@ -1,4 +1,7 @@
 
+Cycle2 by malsup
+http://jquery.malsup.com/cycle2/
+
 hoverIntent by Brian Cherne
 http://cherne.net/brian/resources/jquery.hoverIntent.html
 
@@ -8,3 +11,23 @@ http://jqueryvalidation.org/
 Baskin Robbins Ice-cream pics
 https://www.baskinrobbins.com/content/baskinrobbins/en/products/icecream/flavors.html
 
+brownie.jpg
+http://pixelatedcrumb.com
+
+chocolat.png
+http://i832.photobucket.com
+
+multicolour.jpg
+http://www.budsasia.com
+
+multicolour2.jpg
+http://r.ddmcdn.com
+
+multicolour3.jpg
+http://www.sheddporter.org
+
+strawberry.jpg
+http://www.icecreamdesserts.net
+
+strawberry2.jpg
+https://therapeuticjourneys.files.wordpress.com

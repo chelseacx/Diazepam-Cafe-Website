@@ -132,6 +132,38 @@ a:active {
 		
 }
 
+#slideshow_container {
+	
+	min-height: 560px;
+
+}
+
+#index_slideshow {
+
+	position: absolute; 
+	top: 520px;
+	margin: 0 8px;
+
+
+}
+
+.index_images {
+
+	position: absolute;
+	top: 495px;
+	
+}
+
+
+#welcome {
+
+	position: absolute;
+	top: 800px;
+	z-index: 300;
+	padding: 0 34px;
+	
+}
+
 
 #flavours_table {
 
