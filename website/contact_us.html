@@ -67,59 +67,37 @@
     <!-- InstanceBeginEditable name="Content" -->
     <div id="content"> 
     
-    <h2>Contact Us</h2>
+		<img src="Images/kids.png" alt="Contact Us! Tel: +6544446677, email: Diazepam@gmail.com, address: 200, Diazepam Crescent, 100000 Singapore" />
     
-    <table id="contact_us_table" summary="A table of contact information">
-    
-    	<tr>
-        	<td>Phone</td>
-            <td>+65 4444 6677</td>
-        </tr>
-        
-        <tr>
-        	<td>Email</td>
-            <td>Diazepam@gmail.com</td>
-        </tr>
-    
-    	<tr>
-        	<td>Address</td>
-            <td>200, Diazepam Crescent, 100000 Singapore</td>
-        </tr>
-    
-    </table>
-    
-    <br /><br />
-    
-    
-    <form method="post" action="" id="question_form">
+        <div id="questions_image">
+            <img id="questions_ice_cream" src="Images/questions_ice_cream.png" alt="A double scoop cartoon ice-cream." />
+            <img id="questions_ice_cream_text" src="Images/questions_ice_cream_text.png" alt="Any Questions? Send them to us!" />
+        </div>
+      
+<form method="post" action="" id="question_form">
     	<fieldset>
-    		
-            <h2>Send us a Question!</h2>
-    
     
     		<div>
 
-            	<label for="name">Name:</label>
-                <input name="name" id="name" type="text" required/>
+                <input name="name" id="name" type="text" placeholder="Name*" required/>
 
             </div>
             
             <div>
-            	<label for="email">Email:</label>
-                <input name="email" id="email" type="email" required/>
+                <input name="email" id="email" type="email" placeholder="Email*" required/>
             </div>
             
             <div>
-            	<label for="phone">Phone:</label>
-                <input name="phone" id="phone" type="text" />
+                <input name="phone" id="phone" type="text" placeholder="Phone"/>
             </div>
             
             <div>
-            	<label for="question">Question:</label>
-                <textarea name="question" id="question" required></textarea>
+                <textarea name="question" id="question" placeholder="Question*" required></textarea>
             </div>
             
             <input type="submit" value="Submit" />
+            
+            <p>* required fields</p>
     
     
     	</fieldset>
