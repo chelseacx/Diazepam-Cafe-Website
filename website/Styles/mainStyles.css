@@ -182,6 +182,17 @@ a:active {
 }
 
 
+#event_whale {
+
+	padding-left: 25px;	
+}
+
+#events_table {
+
+	padding-left: 75px;
+	
+}
+
 #events_table td {
 	
 	padding: 10px 15px;
@@ -336,19 +347,25 @@ a:active {
 
 }
 
-#faq_table th {
 
-	padding-top: 25px;
-	padding-bottom: 10px;
-	font-size: 16px;
-	text-align: left;
+#faq_cat {
+	
+	padding-left: 40px;
 	
 }
+
+#faq_table {
+
+	padding-left: 70px;	
+	
+}
+
 
 
 #faq_table .question {
 
 	font-weight: bold;
+	color: #C36;
 	
 }
 
