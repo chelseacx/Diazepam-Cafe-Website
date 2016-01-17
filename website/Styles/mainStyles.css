@@ -56,6 +56,8 @@ a:active {
 
 }
 
+/*   =================   NAV BAR   =================    */
+
 #nav_bar {
 	
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -133,6 +135,8 @@ a:active {
 }
 
 
+/*   =================   CONTENT   =================    */
+
 #content {
 
 	margin: 10px;
@@ -146,6 +150,9 @@ a:active {
 	max-width: 810px;
 		
 }
+
+
+/*   =================   INDEX   =================    */
 
 #slideshow_container {
 	
@@ -180,6 +187,8 @@ a:active {
 }
 
 
+/*   =================   PRODUCTS   =================    */
+
 #flavours_table {
 
 	margin: 0 auto;	
@@ -195,6 +204,205 @@ a:active {
 	overflow: hidden;
 	
 }
+
+/*   =================   ORDER ONLINE   =================    */
+
+
+#order_form_container {
+
+	min-height: 1800px;	
+	position: relative;
+	
+}
+
+#order_mons {
+	
+	position: absolute;
+	z-index: 10;
+	top: 0px;
+	left: 190px;
+	
+}
+
+#order_form {
+
+
+	position: absolute;
+	top: 300px;
+	left: 80px;
+	color: rgba(224, 0, 127, 0.82);
+
+}
+
+#order_form fieldset{
+
+	
+	background: rgba(252, 161, 212, 0.71);
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.78), rgba(252, 161, 212, 0.71)); 
+    background: -o-linear-gradient(rgba(255, 255, 255, 0.78), rgba(252, 161, 212, 0.71)); 
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0.78), rgba(252, 161, 212, 0.71));
+    background: linear-gradient(rgba(255, 255, 255, 0.78), rgba(252, 161, 212, 0.71)); 
+	
+	border-radius: 20px;
+	border: 0;
+	width: 640px;
+	margin: 0 auto;
+	
+	padding-top: 160px;
+	
+	-webkit-box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	-moz-box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+
+}
+
+
+#order_form input{
+
+	width: 550px;
+	margin-left: 22px;
+	
+	border-radius: 20px;
+	padding: 8px 10px;
+	opacity: 0.8;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	-webkit-box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	-moz-box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	border: none;
+
+}
+
+
+#order_form select{
+
+	width: 200px;
+	margin-left: 10px;
+	
+	border-radius: 20px;
+	padding: 8px 10px;
+	opacity: 0.8;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	-webkit-box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	-moz-box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	border: none;
+
+}
+
+#order_form .quantity{
+
+	width: 100px;
+
+}
+
+
+#order_form textarea {
+
+	resize: none;
+	width: 550px;
+	margin-left: 20px;
+	
+	border-radius: 20px;
+	padding: 8px 10px;
+	opacity: 0.8;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	
+	-webkit-box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	-moz-box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	box-shadow: 0 0 8px rgba(249, 91, 181, 0.71);
+	border: none;
+	
+}
+
+#order_form input[type=submit] {
+
+	width: 220px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-left: 210px;
+	padding: 20px 0;
+	
+	background: rgba(254, 219, 239, 0.82);
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.78), rgba(254, 219, 239, 0.82)); 
+    background: -o-linear-gradient(rgba(255, 255, 255, 0.78), rgba(254, 219, 239, 0.82)); 
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0.78), rgba(254, 219, 239, 0.82));
+    background: linear-gradient(rgba(255, 255, 255, 0.78),rgba(254, 219, 239, 0.82)); 
+	
+	-webkit-box-shadow: 0 0 8px rgba(255, 5, 146, 0.71);
+	-moz-box-shadow: 0 0 8px rgba(255, 5, 146, 0.71);
+	box-shadow: 0 0 8px rgba(255, 5, 146, 0.71);
+	border: none;
+	border-radius: 60px;
+	
+	color: rgba(224, 0, 127, 0.82);
+	font-size: 15px;
+	font-weight: 900;
+}	
+
+#order_form input[type=submit]:hover {
+	
+	background: rgba(249, 239, 245, 0.82);
+	background: -webkit-linear-gradient(rgba(255, 255, 255, 0.78), rgba(249, 239, 245, 0.82)); 
+    background: -o-linear-gradient(rgba(255, 255, 255, 0.78), rgba(249, 239, 245, 0.82)); 
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0.78), rgba(249, 239, 245, 0.82));
+    background: linear-gradient(rgba(255, 255, 255, 0.78),rgba(249, 239, 245, 0.82)); 
+
+}	
+
+
+#order_form p {
+
+	padding: none;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 12px;
+	
+}
+
+#order_form .remove_product{
+
+	padding-left: 10px;
+	font-weight: bold;
+	cursor: default;
+	
+}
+
+#order_form .remove_product:hover {
+
+	color: rgba(173, 0, 98, 0.82);
+	
+}
+
+#order_form .add_product {
+
+	cursor: default;
+	font-weight: bold;
+	
+}
+
+#order_form .add_product:hover {
+
+	color: rgba(173, 0, 98, 0.82);
+	
+}
+
+
+#order_form div{
+
+	padding: 10px;
+
+}
+
+
+ 
+/*   =================   EVENTS   =================    */
+
+
+
 
 
 #event_whale {
@@ -222,6 +430,8 @@ a:active {
 	
 }
 
+
+/*   =================   CONTACT US   =================    */
 
 #questions_image {
 
@@ -362,6 +572,11 @@ a:active {
 
 }
 
+
+
+/*   =================   FEEDBACK   =================    */
+
+
 #feedback_container {
 
 	position: relative;
@@ -403,7 +618,7 @@ a:active {
 	width: 360px;
 	margin: 0 auto;
 	
-	padding-top: 50px;
+	padding-top: 80px;
 	
 	-webkit-box-shadow: 0 0 8px rgba(255, 207, 168, 0.87);
 	-moz-box-shadow: 0 0 8px rgba(255, 207, 168, 0.87);
@@ -419,7 +634,24 @@ a:active {
 }
 
 
-#feedback_form input{
+#feedback_form input[type=text] {
+
+	width: 280px;
+	margin-left: 20px;
+	
+	border-radius: 20px;
+	padding: 8px 10px;
+	opacity: 0.8;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	-webkit-box-shadow: 0 0 8px rgba(255, 151, 66, 0.91);
+	-moz-box-shadow: 0 0 8px rgba(255, 151, 66, 0.91);
+	box-shadow: 0 0 8px rgba(255, 151, 66, 0.91);
+	border: none;
+
+}
+
+#feedback_form input[type=email] {
 
 	width: 280px;
 	margin-left: 20px;
@@ -501,6 +733,33 @@ a:active {
 }
 
 
+#rating {
+	
+	margin-left: 30px;
+	
+}
+
+#rating span {
+
+	color: #9E3700;
+	font-weight: bold;
+	font-size: 14px;
+	
+}
+
+
+
+#rating p {
+
+	display: inline;
+	padding: 0 10px;
+	font-size: 15px;
+	
+}
+
+
+
+/*   =================   FAQ   =================    */
 
 
 
@@ -531,9 +790,7 @@ a:active {
 	
 }
 
-
-#question_form {
-}
+/*   ==================================    */
 
 
 #footer {

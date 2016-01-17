@@ -6,7 +6,7 @@
 <head>
 
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Feedback</title>
+<title>Order Online</title>
 <!-- InstanceEndEditable -->
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -18,8 +18,11 @@
 <link href="Styles/mainStyles.css" rel="stylesheet" type="text/css" />
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
 <script type="text/javascript" src="Scripts/jquery.hoverIntent.minified.js"></script>
+
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+
 <script type="text/javascript" src="Scripts/script.js"></script>
 <!-- InstanceEndEditable -->
 </head>
@@ -68,15 +71,16 @@
     
     </div>
     <!-- InstanceBeginEditable name="Content" -->
-    <div id="content">
+    <div id="content"> 
     
-        <div id="feedback_container">
+    
+		<div id="order_form_container">
         
-            <img id="feedback_fox" src="Images/feedback_fox.png" alt="Send us your Feedback!" />
+    	<img id="order_mons" src="Images/order_mons.png" alt="Order Online!" />
         
-            <form method="post" action="" id="feedback_form">
+        <form method="post" action="" id="order_form">
         
-                <fieldset>
+        	 <fieldset>
             
                     <div>
         
@@ -91,33 +95,61 @@
                     </div>
                     
                     <div>
-                    
-                        <input name="phone" id="phone" type="text" placeholder="Phone"/>
-                        
+        
+                        <input name="telephone" id="telephone" type="text" placeholder="Telephone" />
+        
                     </div>
                     
                     <div>
+        
+                        <input name="address" id="address" type="text" placeholder="Address*" required/>
+        
+                    </div>
                     
-                        <textarea name="feedback" id="question" placeholder="Feedback*" required></textarea>
+                    <div id="product_selection_container">
+                    
+                    	<div class="product_selection">
+                        
+                    	<select class="product_type">
+                        	<option value="single_scoop">Single Sccop</option>
+                            <option value="double_scoop">Double Scoop</option>
+                            <option value="ice_cream_cake">Ice-Cream Cake</option>
+                            <option value="waffle_ice_cream">Waffle Ice-Cream</option>
+                            <option value="ice_cream_cookies">Ice-Cream Cookies</option>
+                            <option value="fried_ice_cream">Fried Ice-Cream</option>
+                        </select>
+                        
+                        <select class="flavour">
+                        	<option value="banana split">Banana Split</option>
+                            <option value="brownie_bear">Brownie Bear</option>
+                            <option value="cheesecake_boutique">Cheesecake Boutique</option>
+                            <option value="chocolate sensation">Chocolate Sensation</option>
+                            <option value="coffee_dynamite">Coffee Dynamite</option>
+                            <option value="mint_chocopower">Mint Chocopower</option>
+                            <option value="pistachio_almond">Pistachio Almond</option>
+                            <option value="strawberry_candy">Strawberry Candy</option>
+                            <option value="vanilla_blossom">Vanilla Blossom</option>
+                            <option value="greentea_spa">Greentea Spa</option>    
+                        </select>
+                                                
+                        <input name="quantity" class="quantity" type="number" placeholder="Quantity*"/>
+                        
+                        <span class="remove_product">x</span>
+                                               
+                       </div>
+                       
+					</div>
+                    
+					<p class="add_product">Add More Products!</p>
+                    
+                    
+                    <div>
+                    
+                        <textarea name="comments" id="comments" placeholder="Comments" ></textarea>
                         
                     </div>
                     
-                    <div id="rating">
-                    
-                    <span>How would you rate our services?</span>
-                    <br />
-                    
-                    	<p><input name="rating" type="radio" value="1" required>1</p>
-                        <p><input name="rating" type="radio" value="2">2</p>
-                        <p><input name="rating" type="radio" value="3">3</p>
-                        <p><input name="rating" type="radio" value="4">4</p>
-                        <p><input name="rating" type="radio" value="5">5</p>
-                        
-                    </div>
-                   
-                    
-                    
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Submit Order" />
                     
                     <p>* required fields</p>
             
@@ -125,11 +157,11 @@
                 </fieldset>
             
             </form>
+            
+            </div>
     
-        </div>
-
     
-    </div>
+     </div>
     <!-- InstanceEndEditable -->
     <div id="footer">
   	&copy; All Rights Reserved 2016
