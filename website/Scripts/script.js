@@ -46,15 +46,14 @@ $(document).ready(
 $(document).ready( function(){
 
 	$(".product_selection").hide().clone(true).appendTo("#product_selection_container").show();
-
-});
-
-$(document).ready( function(){
-
 	$(".remove_product").hide();
 
+
 });
 
+
+
+//This adds and removes the product selection line
 
 $(document).ready( function(){
 
@@ -65,11 +64,8 @@ $(document).ready( function(){
 		$(".product_selection:last .remove_product").show();
 	
 	});
-
-});
-
-$(document).ready( function(){
-
+	
+	
 	$( ".remove_product" ).click( function(){ 
 
 		$(this).parent().slideUp();
@@ -78,6 +74,64 @@ $(document).ready( function(){
 
 });
 
+
+
+// This is for calculating the total order cost
+
+/*
+
+$(document).ready( function(){
+	
+
+	var productType = $(".product_type").val;
+	var productPrice; 
+	
+	if (productType = "single_scoop") {
+		
+		productPrice = 3.5;	
+	}
+
+	else if (productType = "double_scoop") {
+	
+		productPrice = 5;
+		
+	}
+	
+	else if (productType = "ice_cream_cake") {
+	
+		productPrice = 11;
+		
+	}	
+
+	else if (productType = "waffle_ice_cream") {
+	
+		productPrice = 4;
+		
+	}
+
+	else if (productType = "ice_cream_cookies") {
+	
+		productPrice = 3;
+		
+	}
+	
+	else if (productType = "fried_ice_cream") {
+	
+		productPrice = 4;
+		
+	}
+
+	else {
+	
+		productPrice = 0;
+		
+	}
+	
+	$('<p>').html(productPrice).insertAfter('.quantity');
+
+});
+
+*/
 
 
 
@@ -100,24 +154,3 @@ $(document).ready(
 
 
 
-
-
-
-$(document).ready( function(){
-
-	$( "#product_selection_container > p" ).click( function(){ 
-	
-		alert("cats are great");
-	
-	});
-
-});
-
-
-
-$(document).ready(function() {
-	
-
-	alert("FDSF");
-	
-});

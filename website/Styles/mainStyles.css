@@ -169,13 +169,6 @@ a:active {
 
 }
 
-.index_images {
-
-	position: absolute;
-	top: 495px;
-	
-}
-
 
 #welcome {
 
@@ -210,7 +203,7 @@ a:active {
 
 #order_form_container {
 
-	min-height: 1800px;	
+	min-height: 1100px;	
 	position: relative;
 	
 }
@@ -427,6 +420,36 @@ a:active {
 	padding-left: 15px;
 	text-align: right;
 	font-style: italic;
+	
+}
+
+.important_event {
+
+	color: #F00;
+	font-weight: bold;
+	
+}
+
+
+#fashion_text {
+
+	position: absolute;
+	top: 1520px;
+	z-index: 10;
+	
+}
+
+#fashion_slideshow {
+
+	min-height: 680px;	
+	z-index: 5;
+	
+}
+
+.fashion_image { 
+
+	position: absolute;
+	padding-top: 30px;
 	
 }
 
