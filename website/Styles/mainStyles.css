@@ -179,6 +179,45 @@ a:active {
 	
 }
 
+/*   =================   ABOUT US   =================    */
+
+#about_us_container {
+	
+	min-height: 650px;
+	position: relative;
+}
+
+#about_us_image_container {
+
+	position: relative;
+
+}	
+
+#about_us_image {
+
+	position: absolute;
+	left: -30px;
+	top: -10px;
+}
+
+#about_us_text {
+
+	position: absolute;
+	max-width: 380px;
+	top: 15px;
+	padding-left: 450px;
+	
+}
+
+#about_us_text h2 {
+
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight: bold;
+	color: #06C;
+	
+}
+
+
 
 /*   =================   PRODUCTS   =================    */
 
@@ -384,12 +423,47 @@ a:active {
 }
 
 
-#order_form div{
+#order_form div {
 
 	padding: 10px;
 
 }
 
+/*   =================   SERVICES   =================    */
+
+#services {
+	
+	padding: 20px 30px;
+	
+}
+
+#services_disclaimer {
+
+	padding: 30px 30px;
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.question_container {
+
+	padding: 15px 0;
+	
+}
+
+.services_answer {
+
+	padding-left: 30px;
+	padding-top: 10px;
+	
+}
+
+.services_question {
+
+	font-weight: bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	
+}
 
  
 /*   =================   EVENTS   =================    */
@@ -841,21 +915,5 @@ a:active {
 	
 	display: block;
 	margin: 0 auto;
-	
-}
-#aboutus
- {
-	
-	padding-left: 120px;
-	float:center;
-	opacity:0.6;
-	
-}
-
-#services
- {
-	
-
-	opacity:0.6;
 	
 }

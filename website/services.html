@@ -20,55 +20,7 @@
 <script type="text/javascript" src="Scripts/jquery.hoverIntent.minified.js"></script>
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 <script type="text/javascript" src="Scripts/script.js"></script>
-<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
-<script type="text/javascript">
-function MM_effectHighlight(targetElement, duration, startColor, endColor, restoreColor, toggle)
-{
-	Spry.Effect.DoHighlight(targetElement, {duration: duration, from: startColor, to: endColor, restoreColor: restoreColor, toggle: toggle});
-}
-function MM_effectShake(targetElement)
-{
-	Spry.Effect.DoShake(targetElement);
-}
-function MM_effectSquish(targetElement)
-{
-	Spry.Effect.DoSquish(targetElement);
-}
-function MM_effectGrowShrink(targetElement, duration, from, to, toggle, referHeight, growFromCenter)
-{
-	Spry.Effect.DoGrow(targetElement, {duration: duration, from: from, to: to, toggle: toggle, referHeight: referHeight, growCenter: growFromCenter});
-}
-function MM_effectBlind(targetElement, duration, from, to, toggle)
-{
-	Spry.Effect.DoBlind(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
-}
-function MM_effectAppearFade(targetElement, duration, from, to, toggle)
-{
-	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
 
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-</script>
 <!-- InstanceEndEditable -->
 </head>
 
@@ -117,28 +69,122 @@ function MM_swapImage() { //v3.0
     </div>
     <!-- InstanceBeginEditable name="Content" -->
     <div id="content">
-    <img id="services" src="Images/services.jpg" width="800" height="400" /> <center><p><strong>DELIEVERY DETAILS</strong></p></center>
-<p><strong><strong><br />
-  1. When will the goods be delivered?</strong></strong></p>
-<p>We will strive to deliver within <strong>2 working days</strong> of your purchase. Delivery will be made anytime between <strong>Mon to Fri, 10am-5pm</strong> and on <strong>Sat, 10am-3pm</strong>. No delivery on Sundays and Public Holidays. </p>
-<p><strong>2. What are the shipping charges?</strong></p>
-<p><strong>FREE Delivery</strong> for Orders above $100.</p>
-<p>Delivery charges for Orders below $100 must be $30.</p>
-<p><strong>3. Where can deliveries be made?</strong></p>
-<p>Diazepam Cafe is proud to say we ship our products to most homes and business establishments throughout Singapore including Sentosa island.</p>
-<p><strong>4 .What happens if I miss my delivery?</strong></p>
-<p>We understand that unforeseen circumstances may force you to miss your delivery. If this has happened to you please do contact us to make another arrangement.<strong> Re-delivery</strong> is chargeable at <strong>$8.50</strong>.</p>
-<p><strong>5. How do I pay for my purchases?</strong></p>
-<p>As of now we offer two types of payment options: <strong>Paypal </strong>and <strong>Cash on Delivery</strong>. Please indicate your preferred method upon check-out. Prices include <strong>GST</strong>.</p>
-<img src="Images/new_blue.jpg" width="35" height="35" id="Image1" />
-<strong>Party Planners</strong> - We offer parties in various venues where we can provide different options according to the customer.We have options like ice- cream catering, customisable cakes etc.
- 
-<p>
-<strong>STRICT NOTE</strong>: NO RETURNS AND EXCHANGES AVAILABLE IN ANY CASE.<br /></p>
+    <img class="center_image" src="Images/services.png" /> 
+    
+    <div id="services">
+    
+    
+		<div class="question_container">    
+            <p class="services_question">
+            
+            	1. When will the goods be delivered?
+                
+            </p>
+            <p class="services_answer">
+            
+                We will strive to deliver within <b>2 working days</b> of your purchase.
+                
+				<br /><br />
+                
+                Delivery will be made anytime between <b>Mon to Fri, 10am-5pm</b> and on <b>Sat, 10am-3pm</b>. No delivery on Sundays and Public Holidays.
+                
+            </p>
+        </div>
+        
+        
+        <div class="question_container">
+            <p class="services_question">
+            
+            	2. What are the shipping charges?
+                
+            </p>
+            <p class="services_answer">
 
-<p><br />
-</p>
-<br />
+                <b>FREE Delivery</b> for Orders above $100.
+                
+                <br />
+                
+                $30 Delivery Fee for Orders below $100.
+                
+            </p>
+        </div>
+        
+        <div class="question_container">
+            <p class="services_question">
+            
+            	3. Where can deliveries be made?
+                
+            </p>
+            <p class="services_answer">
+            
+            	We offer delivery throughout Singapore.
+                
+            </p>
+        </div>
+        
+        <div class="question_container">
+            <p class="services_question">
+            
+            	4. What happens if I miss my delivery?
+                
+            </p>
+            <p class="services_answer">
+            
+                We understand that unforeseen circumstances may force you to miss your delivery. 
+                
+                <br />
+                
+                If this happens, please <a href="contact_us.html">contact us</a> to make another arrangement.
+                
+                <br /><br />
+                
+                <b> Re-delivery</b> is chargeable at <b>$8.50</b>.
+                
+            </p>
+        </div>
+        
+        <div class="question_container">
+            <p class="services_question">
+            
+            	5. How do I pay for my purchases?
+                
+            </p>
+            <p class="services_answer">
+            
+                We currently accept two payment modes: <b>Paypal </b>and <b>Cash on Delivery</b>. 
+                
+                <br />
+                
+                Please indicate your preferred method upon check-out. Prices include <b>GST</b>.
+                
+            </p>
+        </div>
+        
+        <div class="question_container">
+            <p class="services_question">
+            	<img src="Images/new_blue.png" />
+            	<b>Party Planners</b>
+            </p>
+            
+            <p class="services_answer">
+            
+                We can plan your parties for you at various venues. Plan your party with our various options such as free-flow ice-cream and customisable cakes.
+                
+                <br /><br />
+                
+                Please <a href="contact_us.html">contact us</a> for more details.
+                    
+            </p>
+        </div>
+         
+        <p id="services_disclaimer">
+        
+        	STRICTLY NO RETURNS AND EXCHANGES.
+            
+        </p>
+
+	</div>
+    
     </div>
     <!-- InstanceEndEditable -->
     <div id="footer">
