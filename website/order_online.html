@@ -87,7 +87,7 @@
         
     	<img id="order_mons" src="Images/order_mons.png" alt="Order Online!" />
 
-            <form method="post" action="" id="order_form">
+            <form method="post" action="http://www.paypal.com" id="order_form">
         
         	 <fieldset>
             
@@ -121,8 +121,7 @@
                     
                     	<div class="product_selection_0">
                                             
-                            <select class="product_type">
-                            	<option value="" disabled selected>Select Product</option>
+                            <select name="product_type" class="product_type">
                                 <option>Single Scoop</option>
                                 <option>Double Scoop</option>
                                 <option>Ice-Cream Cake</option>
@@ -131,8 +130,7 @@
                                 <option>Fried Ice-Cream</option>
                             </select> 
 
-                            <select class="flavour">
-                                <option value="" disabled selected>Select Flavour</option>
+                            <select name="flavour" class="flavour">
                                 <option>Banana Split</option>
                                 <option>Brownie Bear</option>
                                 <option>Cheesecake Boutique</option>
@@ -146,7 +144,7 @@
                             </select>
 
                  
-                            <input name="quantity" class="quantity" type="number" min="1" placeholder="Quantity*"/>
+                            <input name="quantity" class="quantity" type="number" min="1" value="1"/>
                                                         
                             <span class="remove_product">x</span>
                              
@@ -154,9 +152,9 @@
                             
                                              
                             <span class="dollar_sign">$</span>
-                            <span class="product_cost">0</span>
+                            <span class="product_cost">3.5</span>
                             <span class="calc_text"> x </span>
-                            <span class="product_quantity">0</span>
+                            <span class="product_quantity">1</span>
                             <span class="calc_text"> = $</span>
                             <span class="product_total">0</span>
                                          
@@ -178,7 +176,7 @@
                         
                     </div>
                     
-                    <input type="submit" value="Submit Order" />
+                    <input type="submit" value="Proceed to Payment"/>
                     
                     <p>* required fields</p>
             
