@@ -74,19 +74,41 @@ a:active {
 	
 }
 
+#nav_bar a:hover {
+
+	color: #0CF;
+	
+}
+
+#nav_bar a:active {
+
+	color: #09C;
+	
+}
+
+
+
 #arrow_down1 {
 
 	position: absolute;
 	padding-left: 330px;
-	top: 459px;
+	top: 462px;
 	
 }
 
 #arrow_down2 {
 
 	position: absolute;
+	padding-left: 580px;
+	top: 462px;
+	
+}
+
+#arrow_down3 {
+
+	position: absolute;
 	padding-left: 706px;
-	top: 459px;
+	top: 462px;
 	
 }
 
@@ -118,7 +140,7 @@ a:active {
 #nav_bar ul li ul {
 	
 	position: absolute;
-	width: 120px;
+	width: 140px;
 	top: 470px;
 }
 
@@ -257,8 +279,7 @@ a:active {
 }
 
 #order_form {
-
-
+	
 	position: absolute;
 	top: 300px;
 	left: 80px;
@@ -314,6 +335,7 @@ a:active {
 	
 	border-radius: 20px;
 	padding: 8px 10px;
+
 	opacity: 0.8;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 13px;
@@ -395,6 +417,29 @@ a:active {
 	
 }
 
+.dollar_sign, .calc_text, .product_cost, .product_quantity, .product_total {
+
+	font-size: 12px;
+	padding: none;
+	margin: none;
+
+}
+
+.dollar_sign {
+
+	padding-left: 480px;
+	
+}
+
+#total_cost_container {
+
+	padding-left: 475px;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+
 #order_form .remove_product{
 
 	padding-left: 10px;
@@ -428,6 +473,7 @@ a:active {
 	padding: 10px;
 
 }
+
 
 /*   =================   SERVICES   =================    */
 

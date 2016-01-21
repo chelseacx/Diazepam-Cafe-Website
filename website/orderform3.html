@@ -1,0 +1,219 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/mainTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+
+
+<head>
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- InstanceEndEditable -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="Diazepam Cafe provides the finest and best dairy ice-cream with wholesome natural ingredients." />
+<meta name="keywords" content="diazepam cafe, diazepam, ice-cream, ice cream, cafe, dessert, dessert cafe, desserts cafe, sweets, sweet cafe, diazepam ice-cream, diazepam ice cream, best ice-cream, best ice cream, natural ice cream, wholesome ice cream, natural ingredients, quality ice-cream, ice-cream events, ice-cream services, ice-cream competition" />
+
+<!-- InstanceBeginEditable name="External Links" -->
+<link href="Styles/mainStyles.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="Scripts/jquery.hoverIntent.minified.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="Scripts/script.js"></script>
+<!-- InstanceEndEditable -->
+</head>
+
+
+
+<body>
+
+<div id="container">
+
+    <div id="header">
+    
+   	  <img src="Images/logo.gif" id="logo" width="950px" height="auto" alt="Diazepam Ice-Cream Logo" /> 
+    
+  </div>
+    
+    <div id="nav_bar">
+    
+    	<img id="arrow_down1" src="Images/arrow_down.png"/>
+        <img id="arrow_down2" src="Images/arrow_down.png"/>
+        <img id="arrow_down3" src="Images/arrow_down.png"/>
+
+<ul>
+   	  <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+    		<li><a href="products.html">Products</a>
+            
+            	<ul>
+                <li><a href="order_online.html">Order Online</a>
+            	</li>
+                </ul>
+                
+            </li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="events.html">Events</a>
+            
+            	<ul>
+                <li><a href="diazepam_at_313_somerset.html">Diazepam <br /> @ 313</a>
+            	</li>
+                </ul>            
+            
+            </li>
+            <li><a href="contact_us.html">Contact Us</a>
+            
+            	<ul>
+                <li><a href="feedback.html">Feedback</a>
+            	</li>
+                </ul>
+            
+            </li>
+            <li><a href="faq.html">FAQ</a></li>
+            
+        </ul>
+        
+    
+    </div>
+    <!-- InstanceBeginEditable name="Content" -->
+    <div id="content">
+
+             
+<div id="product_selection_container">
+                    
+    <div class="product_selection_0">
+                            
+        <select class="product_type">
+            <option>Single Scoop</option>
+            <option>Double Scoop</option>
+            <option>Ice-Cream Cake</option>
+            <option>Waffle Ice-Cream</option>
+            <option>Ice-Cream Cookies</option>
+            <option>Fried Ice-Cream</option>
+        </select> 
+                                    
+        <input name="quantity" class="quantity" type="number" placeholder="Quantity*"/>
+                                    
+        <span class="remove_product">x</span>
+         
+         <br />  <br />      
+        
+                         
+        $<span class="product_cost">3.5</span> x
+        <span class="product_quantity">1</span> =
+        $<span class="product_total">3.5</span>
+                     
+    </div>
+    
+                       
+</div>
+
+<p class='add_product'>Add More Products!</p>
+<span>Total Cost: $</span><span id="total_cost">$3.5</span>
+
+
+
+
+<script>
+
+	$('.product_selection_0').hide().clone(true).attr('class', "product_selection_1").appendTo('#product_selection_container').show();
+	
+	$('.remove_product').hide();
+
+
+	$('p.add_product').click( function(){
+	
+		var divClassName = $('#product_selection_container div:last-child').attr('class');
+		var classNumber = divClassName.substr(18, 1);
+
+		
+		classNumber = parseInt(classNumber) + 1;
+		divClassName = 'product_selection_' + classNumber;
+		
+		
+		$('.product_selection_0').clone(true).attr('class', divClassName).appendTo('#product_selection_container').slideDown();
+		
+		$('#product_selection_container div:last-child .remove_product').show();
+
+	
+	});
+
+
+	$('.remove_product').click( function(){
+	
+		$(this).parent().slideUp(function() { $(this).remove(); } );
+		
+	
+	});
+
+	
+	$('select.product_type').change( function() {
+
+		var productType = $(this).val();
+		var productCost;
+		
+		
+		if (productType == "Single Scoop") 
+			{productCost = 3.5;}
+		else if (productType == "Double Scoop") 
+			{productCost = 5;} 
+		else if (productType == "Ice-Cream Cake") 
+			{productCost = 11;}
+		else if (productType == "Waffle Ice-Cream") 
+			{productCost = 4;}  
+		else if (productType == "Ice-Cream Cookies") 
+			{productCost = 3;} 
+		else if (productType == "Fried Ice-Cream") 
+			{productCost = 4;}
+		else 
+			{productCost = 0;}  
+		
+		
+		$(this).nextAll('.product_cost').html(productCost);
+	
+	});
+
+
+	$('input.quantity').change( function() {	
+		
+		var productQuantity = $(this).val();
+		$(this).nextAll('.product_quantity').html(productQuantity);
+
+	});
+
+	$('#product_selection_container').change( function() {	
+		
+		
+		var productCost; 
+		var productQuantity;
+		var productTotal = 0;
+		var calcTotal;
+		
+		$('span.product_cost:not(:first)').each( function(){
+			
+				productCost = $(this).text();
+				productQuantity = $(this).nextAll('span.product_quantity').text();
+				calcTotal = parseFloat(productCost) * parseInt(productQuantity);
+				$(this).nextAll('span.product_total').html(calcTotal);
+				
+				productTotal = productTotal + parseFloat(calcTotal);
+
+		});
+		
+		
+		$('#total_cost').html(productTotal);
+
+	});
+
+</script>
+    
+    
+    </div>
+    <!-- InstanceEndEditable -->
+    <div id="footer">
+  	&copy; All Rights Reserved 2016
+  </div>
+  
+</div>
+</body>
+<!-- InstanceEnd --></html>
