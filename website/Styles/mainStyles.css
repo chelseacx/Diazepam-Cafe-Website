@@ -243,7 +243,82 @@ a:active {
 
 /*   =================   PRODUCTS   =================    */
 
-#flavours_table {
+
+#flavour_details_container {
+	
+	height: 300px;
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	position: relative;
+	
+}
+
+#flavour_details_container img{
+	
+	position: absolute;
+	display: none;
+	
+}
+
+#thumbnails_container {
+	
+	width: 1000px;
+	overflow: hidden;
+	
+}
+
+#thumbnails_inner {  
+
+    float: left;
+    width: 800px;
+    overflow: hidden; 
+ 
+}  
+      
+#thumbnails_list {  
+
+    position: relative;  
+    left: -100px;
+    list-style-type: none;
+    margin: 0px;  
+    padding: 0px;  
+    width: 9999px; 
+	
+}  
+      
+#thumbnails_list li{  
+
+    float: left;
+    width: 100px;    
+    padding:0px;  
+    height:100px;  
+ 
+ 
+}  
+
+#thumbnails_list li img:hover{  
+
+	opacity: 0.8;
+ 
+}  
+      
+
+#left_scroll, #right_scroll{  
+
+    float:left;  
+	
+}  
+
+
+#left_scroll:hover, #right_scroll:hover{  
+
+    opacity: 0.5; 
+	
+}  
+
+
+/*#flavours_table {
 
 	margin: 0 auto;	
 	
@@ -257,7 +332,87 @@ a:active {
 	text-align: center;
 	overflow: hidden;
 	
+}*/
+
+#menu_container {
+
+	padding-top: 80px;
+	
 }
+
+#menu_details_container {
+	
+	height: 300px;
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	position: relative;
+	
+}
+
+#menu_details_container img{
+	
+	position: absolute;
+	display: none;
+	
+}
+
+#menu_thumbnails_container {
+	
+	width: 1200px;
+	overflow: hidden;
+	
+}
+
+#menu_thumbnails_inner {  
+
+    float: left;
+    width: 800px;
+    overflow: hidden; 
+ 
+}  
+      
+#menu_thumbnails_list {  
+
+    position: relative;  
+    left: -100px;
+    list-style-type: none;
+    margin: 0px;  
+    padding: 0px;  
+    width: 9999px; 
+	
+}  
+      
+#menu_thumbnails_list li{  
+
+    float: left;
+    width: 100px;    
+    padding:0px;  
+    height:100px;  
+ 
+ 
+}  
+
+#menu_thumbnails_list li img:hover{  
+
+	opacity: 0.8;
+ 
+}  
+      
+#menu_left_scroll, #menu_right_scroll{  
+
+    float:left;  
+	
+}  
+
+
+#menu_left_scroll:hover, #menu_right_scroll:hover{  
+
+    opacity: 0.5; 
+	
+}  
+
 
 /*   =================   ORDER ONLINE   =================    */
 

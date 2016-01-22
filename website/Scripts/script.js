@@ -40,6 +40,246 @@ $(document).ready(
 );
 
 
+// This is for the product page flavour carousel
+
+$(document).ready(function() {  
+
+
+	$("#thumbnails_list li:last").insertBefore($("#thumbnails_list li:first"));
+	
+		  
+	$("#right_scroll img").click(function(){  
+	
+		var thumbnail_width = $("#thumbnails_list li").outerWidth();  
+			  
+		var left_indent = parseInt($("#thumbnails_list").css("left")) - thumbnail_width;  
+			  
+		$("#thumbnails_list").animate({
+			left: left_indent
+			},
+			{
+				queue: false, 
+				duration:100,
+				complete: function(){  
+			  
+					$("#thumbnails_list li:last").after($("#thumbnails_list li:first"));  
+			  
+					$("#thumbnails_list").css({"left" : "-100px"});  
+				}
+				
+			});  
+		
+		
+	});  
+      
+
+	$("#left_scroll img").click(function(){
+
+		  
+		var thumbnail_width = $("#thumbnails_list li").outerWidth();  
+			  
+		var left_indent = parseInt($("#thumbnails_list").css("left")) + thumbnail_width;  
+		
+		$("#thumbnails_list").animate({
+			left: left_indent
+			},
+			{
+				queue: false, 
+				duration:100,
+				complete: function(){  
+			  
+					$("#thumbnails_list li:first").before($("#thumbnails_list li:last")); 
+			  
+					$("#thumbnails_list").css({"left" : "-100px"});  
+				}
+				
+			});		 
+		  
+	});  
+	
+	
+	$("#flavour_main").show();
+
+	$("#banana_split_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#banana_split").show();
+    
+    });
+
+	$("#brownie_bear_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#brownie_bear").show();
+    
+    });
+
+	$("#cheesecake_boutique_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#cheesecake_boutique").show();
+    
+    });
+
+	$("#chocolate_sensation_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#chocolate_sensation").show();
+    
+    });    
+
+	$("#coffee_dynamite_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#coffee_dynamite").show();
+    
+    });  
+
+	$("#green_tea_spa_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#green_tea_spa").show();
+    
+    });
+
+	$("#mint_chocopower_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#mint_chocopower").show();
+    
+    });
+
+	$("#pistachio_almond_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#pistachio_almond").show();
+    
+    });
+
+	$("#strawberry_candy_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#strawberry_candy").show();
+    
+    });    
+
+	$("#vanilla_blossom_thumb").click( function(){
+    
+    	$("#flavour_details_container img").hide();
+        $("#vanilla_blossom").show();
+    
+    }); 
+	
+});  
+
+
+// This is for the product page menu carousel
+
+$(document).ready(function() {  
+
+
+	$("#menu_thumbnails_list li:last").insertBefore($("#menu_thumbnails_list li:first"));
+	
+		  
+	$("#menu_right_scroll img").click(function(){  
+	
+		var thumbnail_width = $("#menu_thumbnails_list li").outerWidth();  
+			  
+		var left_indent = parseInt($("#menu_thumbnails_list").css("left")) - thumbnail_width;  
+			  
+		$("#menu_thumbnails_list").animate({
+			left: left_indent
+			},
+			{
+				queue: false, 
+				duration:100,
+				complete: function(){  
+			  
+					$("#menu_thumbnails_list li:last").after($("#menu_thumbnails_list li:first"));  
+			  
+					$("#menu_thumbnails_list").css({"left" : "-100px"});  
+				}
+				
+			});  
+		
+		
+	});  
+      
+
+	$("#menu_left_scroll img").click(function(){
+
+		  
+		var thumbnail_width = $("#menu_thumbnails_list li").outerWidth();  
+			  
+		var left_indent = parseInt($("#menu_thumbnails_list").css("left")) + thumbnail_width;  
+		
+		$("#menu_thumbnails_list").animate({
+			left: left_indent
+			},
+			{
+				queue: false, 
+				duration:100,
+				complete: function(){  
+			  
+					$("#menu_thumbnails_list li:first").before($("#thumbnails_list li:last")); 
+			  
+					$("#menu_thumbnails_list").css({"left" : "-100px"});  
+				}
+				
+			});		 
+		  
+	});  
+	
+	
+	$("#menu").show();
+
+	$(".single_scoop_thumb").click( function(){
+    
+    	$("#menu_details_container img").hide();
+        $("#single_scoop").show();
+    
+    });
+
+	$(".double_scoop_thumb").click( function(){
+    
+    	$("#menu_details_container img").hide();
+        $("#double_scoop").show();
+    
+    });
+
+	$(".ice_cream_cake_thumb").click( function(){
+    
+    	$("#menu_details_container img").hide();
+        $("#ice_cream_cake").show();
+    
+    });
+
+	$(".waffle_ice_cream_thumb").click( function(){
+    
+    	$("#menu_details_container img").hide();
+        $("#waffle_ice_cream").show();
+    
+    });    
+
+	$(".ice_cream_cookies_thumb").click( function(){
+    
+    	$("#menu_details_container img").hide();
+        $("#ice_cream_cookies").show();
+    
+    });  
+
+	$(".fried_ice_cream_thumb").click( function(){
+    
+    	$("#menu_details_container img").hide();
+        $("#fried_ice_cream").show();
+    
+    });
+
+	
+});  
+
+
+
 
 //The following is for adding or removing products on the online order form
 
@@ -166,6 +406,7 @@ $(document).ready( function(){
 
 
 });
+
 
 
 
